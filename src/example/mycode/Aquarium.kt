@@ -1,8 +1,11 @@
 package example.mycode
 
 class Aquarium (var width: Int = 100, var length: Int = 200, var height: Int = 1){
-    val volume: Int
+    var volume: Int
         get() = width * length * height
+        set(value) {
+            height = value / (width * length)
+        }
 
     init {
         println("Aquarium starting..")

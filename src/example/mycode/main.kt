@@ -8,6 +8,8 @@ fun buildAquarium() {
 
     val aq2 = Aquarium(numberOfFish = 64)
     aq2.printSize()
+    aq2.volume = 500_000
+    aq2.printSize()
 }
 
 fun main() {
