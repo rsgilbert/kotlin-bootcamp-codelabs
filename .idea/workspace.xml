@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea02192-a712-48f8-adf6-46ea60c04e50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/decor/Decoration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/mycode/AquariumFish.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example/mycode/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/mycode/Aquarium.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example/mycode/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/mycode/main.kt" afterDir="false" />
@@ -42,7 +44,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.example.mycode.MainKt">
+  <component name="RunManager" selected="Kotlin.decor.DecorationKt">
     <configuration name="LambdasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-udacity" />
       <option name="VM_PARAMETERS" />
@@ -51,6 +53,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="LambdasKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="decor.DecorationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-udacity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="decor.DecorationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.decor.DecorationKt" />
         <item itemvalue="Kotlin.example.mycode.MainKt" />
         <item itemvalue="Kotlin.LambdasKt" />
       </list>
@@ -100,7 +116,7 @@
       <updated>1582530121376</updated>
       <workItem from="1582530126170" duration="702000" />
       <workItem from="1582793133349" duration="57000" />
-      <workItem from="1584032637794" duration="3987000" />
+      <workItem from="1584032637794" duration="9018000" />
     </task>
     <task id="LOCAL-00001" summary="Working on lambdas and higher order functions">
       <created>1584033235592</created>
@@ -116,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584077947361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished classes. Going on to inheritance">
+      <created>1584080335134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584080335134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,29 +148,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working on lambdas and higher order functions" />
     <MESSAGE value="Working on Object Oriented PRogramming. Created classes and working on getters, constructors etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on Object Oriented PRogramming. Created classes and working on getters, constructors etc" />
+    <MESSAGE value="Finished classes. Going on to inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished classes. Going on to inheritance" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1584077946390">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584080334425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584077946390" />
-    <state width="633" height="175" key="GridCell.Tab.0.bottom" timestamp="1584078182388">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584080334425" />
+    <state width="579" height="175" key="GridCell.Tab.0.bottom" timestamp="1584086943290">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="633" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584078182388" />
-    <state width="633" height="175" key="GridCell.Tab.0.center" timestamp="1584078182387">
+    <state width="579" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584086943290" />
+    <state width="579" height="175" key="GridCell.Tab.0.center" timestamp="1584086943289">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="633" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584078182387" />
-    <state width="633" height="175" key="GridCell.Tab.0.left" timestamp="1584078182387">
+    <state width="579" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584086943289" />
+    <state width="579" height="175" key="GridCell.Tab.0.left" timestamp="1584086943289">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="633" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584078182387" />
-    <state width="633" height="175" key="GridCell.Tab.0.right" timestamp="1584078182387">
+    <state width="579" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584086943289" />
+    <state width="579" height="175" key="GridCell.Tab.0.right" timestamp="1584086943289">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="633" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584078182387" />
+    <state width="579" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584086943289" />
     <state x="110" y="118" width="569" height="440" key="dock-window-1" timestamp="1582530213669">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -160,5 +184,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="66" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1582793187116" />
+    <state x="8" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584084100403">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="8" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584084100403" />
   </component>
 </project>
