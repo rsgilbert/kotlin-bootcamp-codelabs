@@ -142,7 +142,7 @@
       <updated>1582530121376</updated>
       <workItem from="1582530126170" duration="702000" />
       <workItem from="1582793133349" duration="57000" />
-      <workItem from="1584032637794" duration="22434000" />
+      <workItem from="1584032637794" duration="25462000" />
     </task>
     <task id="LOCAL-00001" summary="Working on lambdas and higher order functions">
       <created>1584033235592</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584101635551</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="working on generic functions">
+      <created>1584104183595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584104183595</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,29 +222,30 @@
     <MESSAGE value="Partitioned a list into evens and odds" />
     <MESSAGE value="finished codelab on extensions. moving on to generics" />
     <MESSAGE value="Worked with in and out generic types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked with in and out generic types" />
+    <MESSAGE value="working on generic functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on generic functions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584101634479">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584104182759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584101634479" />
-    <state width="579" height="175" key="GridCell.Tab.0.bottom" timestamp="1584101547107">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584104182759" />
+    <state width="618" height="211" key="GridCell.Tab.0.bottom" timestamp="1584106425472">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584101547107" />
-    <state width="579" height="175" key="GridCell.Tab.0.center" timestamp="1584101547105">
+    <state width="618" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584106425472" />
+    <state width="618" height="211" key="GridCell.Tab.0.center" timestamp="1584106425471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584101547104" />
-    <state width="579" height="175" key="GridCell.Tab.0.left" timestamp="1584101547103">
+    <state width="618" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584106425471" />
+    <state width="618" height="211" key="GridCell.Tab.0.left" timestamp="1584106425471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584101547103" />
-    <state width="579" height="175" key="GridCell.Tab.0.right" timestamp="1584101547106">
+    <state width="618" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584106425471" />
+    <state width="618" height="211" key="GridCell.Tab.0.right" timestamp="1584106425471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584101547106" />
+    <state width="618" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584106425471" />
     <state x="110" y="118" width="569" height="440" key="dock-window-1" timestamp="1582530213669">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
