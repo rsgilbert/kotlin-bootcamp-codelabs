@@ -42,7 +42,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.decor.DecorationKt">
+  <component name="RunManager" selected="Kotlin.extensions.PartitionKt">
     <configuration name="LambdasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-udacity" />
       <option name="VM_PARAMETERS" />
@@ -95,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="extensions.PartitionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-udacity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="extensions.PartitionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.extensions.PartitionKt" />
         <item itemvalue="Kotlin.decor.DecorationKt" />
         <item itemvalue="Kotlin.example.mycode.AquariumFishKt" />
         <item itemvalue="Kotlin.example.mycode.MainKt" />
@@ -172,26 +186,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Practised working with data classes and also destructuring them. Moving on to enums and sealed classes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584086991059">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584088240734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584086991059" />
-    <state width="579" height="175" key="GridCell.Tab.0.bottom" timestamp="1584087635018">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584088240734" />
+    <state width="579" height="175" key="GridCell.Tab.0.bottom" timestamp="1584088399183">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584087635018" />
-    <state width="579" height="175" key="GridCell.Tab.0.center" timestamp="1584087635017">
+    <state width="579" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584088399183" />
+    <state width="579" height="175" key="GridCell.Tab.0.center" timestamp="1584088399183">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584087635017" />
-    <state width="579" height="175" key="GridCell.Tab.0.left" timestamp="1584087635017">
+    <state width="579" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584088399183" />
+    <state width="579" height="175" key="GridCell.Tab.0.left" timestamp="1584088399183">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584087635017" />
-    <state width="579" height="175" key="GridCell.Tab.0.right" timestamp="1584087635017">
+    <state width="579" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584088399183" />
+    <state width="579" height="175" key="GridCell.Tab.0.right" timestamp="1584088399183">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="579" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584087635017" />
+    <state width="579" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584088399183" />
     <state x="110" y="118" width="569" height="440" key="dock-window-1" timestamp="1582530213669">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
