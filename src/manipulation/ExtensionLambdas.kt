@@ -17,6 +17,8 @@ fun fishExamples() {
 // ie. the compiler will change the code to replace the lambda
 // with the instructions inside the lambda
 // this could reduce overhead during runtime hence faster execution
+// Lambdas are objects. To avoid creating the object, you can mark the function with inline,
+// and the compiler will put the contents of the lambda in the code directly.
 inline fun myWith(name: String, block: String.() -> Unit) {
     name.block()
 }

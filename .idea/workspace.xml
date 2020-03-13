@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea02192-a712-48f8-adf6-46ea60c04e50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sam/Fish.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sam/JavaRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manipulation/ExtensionLambdas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/manipulation/ExtensionLambdas.kt" afterDir="false" />
     </list>
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -47,20 +50,7 @@
       <recent name="D:\projects\spring-is-hell\kotlin-udacity\src\manipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.manipulation.ExtensionLambdasKt">
-    <configuration name="extensions.CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-udacity" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="extensions.CollectionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.sam.FishKt">
     <configuration name="generics.AquariumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-udacity" />
       <option name="VM_PARAMETERS" />
@@ -113,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sam.FishKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-udacity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sam.FishKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.sam.FishKt" />
         <item itemvalue="Kotlin.manipulation.ExtensionLambdasKt" />
         <item itemvalue="Kotlin.manipulation.LabelledBreaksKt" />
         <item itemvalue="Kotlin.manipulation.AnnotationsKt" />
         <item itemvalue="Kotlin.generics.AquariumKt" />
-        <item itemvalue="Kotlin.extensions.CollectionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +150,7 @@
       <updated>1582530121376</updated>
       <workItem from="1582530126170" duration="702000" />
       <workItem from="1582793133349" duration="57000" />
-      <workItem from="1584032637794" duration="30552000" />
+      <workItem from="1584032637794" duration="32323000" />
     </task>
     <task id="LOCAL-00001" summary="Working on lambdas and higher order functions">
       <created>1584033235592</created>
@@ -233,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584112589104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Done with ExtensionLambdas like with, let, apply">
+      <created>1584115423914</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584115423914</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,29 +262,30 @@
     <MESSAGE value="finished generics codelab. Going on to functional manipulation and annotations" />
     <MESSAGE value="created simple annotations" />
     <MESSAGE value="Used labelled breaks and joinToString. moving on to extension lambdas like run, let, with etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used labelled breaks and joinToString. moving on to extension lambdas like run, let, with etc" />
+    <MESSAGE value="Done with ExtensionLambdas like with, let, apply" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with ExtensionLambdas like with, let, apply" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584115422386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584115422386" />
-    <state width="618" height="211" key="GridCell.Tab.0.bottom" timestamp="1584115324554">
+    <state width="618" height="211" key="GridCell.Tab.0.bottom" timestamp="1584116447007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584115324554" />
-    <state width="618" height="211" key="GridCell.Tab.0.center" timestamp="1584115324553">
+    <state width="618" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584116447007" />
+    <state width="618" height="211" key="GridCell.Tab.0.center" timestamp="1584116447005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584115324553" />
-    <state width="618" height="211" key="GridCell.Tab.0.left" timestamp="1584115324553">
+    <state width="618" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584116447005" />
+    <state width="618" height="211" key="GridCell.Tab.0.left" timestamp="1584116447005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584115324553" />
-    <state width="618" height="211" key="GridCell.Tab.0.right" timestamp="1584115324553">
+    <state width="618" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584116447005" />
+    <state width="618" height="211" key="GridCell.Tab.0.right" timestamp="1584116447007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584115324553" />
+    <state width="618" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584116447007" />
     <state x="110" y="118" width="569" height="440" key="dock-window-1" timestamp="1582530213669">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
