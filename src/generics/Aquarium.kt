@@ -31,6 +31,10 @@ class Aquarium<out T: WaterSupply>(val waterSupply: T) {
     }
 }
 
+fun <T: WaterSupply> isWaterClean(aquarium: Aquarium<T>) {
+    println("Cleanliness is :${aquarium.waterSupply.needsProcessing}")
+}
+
 interface Cleaner<in T: WaterSupply> {
     fun clean(waterSupply: T)
 }
@@ -59,6 +63,8 @@ fun genExample2() {
     val aquarium = Aquarium(TapWater())
     aquarium.addWater(cleaner)
 }
+
+
 fun main() {
 //    genericsExample()
 //    inAndOutExample()

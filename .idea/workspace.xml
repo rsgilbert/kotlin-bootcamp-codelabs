@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea02192-a712-48f8-adf6-46ea60c04e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generics/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/MyList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/Aquarium.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,7 @@
       <updated>1582530121376</updated>
       <workItem from="1582530126170" duration="702000" />
       <workItem from="1582793133349" duration="57000" />
-      <workItem from="1584032637794" duration="20388000" />
+      <workItem from="1584032637794" duration="22434000" />
     </task>
     <task id="LOCAL-00001" summary="Working on lambdas and higher order functions">
       <created>1584033235592</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584092686110</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Worked with in and out generic types">
+      <created>1584101635551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584101635551</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,13 +214,14 @@
     <MESSAGE value="Did enums and sealed classes. Going to work on extension functions" />
     <MESSAGE value="Partitioned a list into evens and odds" />
     <MESSAGE value="finished codelab on extensions. moving on to generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished codelab on extensions. moving on to generics" />
+    <MESSAGE value="Worked with in and out generic types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked with in and out generic types" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584092685181">
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2" timestamp="1584101634479">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584092685181" />
+    <state x="0" y="0" width="704" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584101634479" />
     <state width="579" height="175" key="GridCell.Tab.0.bottom" timestamp="1584101547107">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
