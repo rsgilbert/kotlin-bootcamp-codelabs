@@ -31,3 +31,22 @@ class PrintingFishAction(val food: String) : FishAction {
         println("I eat $food")
     }
 }
+
+// sealed class
+// A sealed class can only be subclassed from inside the file it is declared
+sealed class Seal {
+   val name = " The Big seal "
+}
+
+open class SeaLion : Seal()
+class Walrus : Seal()
+
+fun matchSeal(seal: Seal): String {
+    return when (seal) {
+        is Walrus -> "Walrus it is"
+        is SeaLion -> "Turns out it is a sea lion"
+    }
+}
+fun main() {
+    println(matchSeal(SeaLion()))
+}
